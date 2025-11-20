@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morning Cup — кофейня с характером</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="alternate icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      // Предотвращаем автоматическую прокрутку при загрузке страницы
+      if (window.location.hash) {
+        window.scrollTo(0, 0)
+        window.history.replaceState(null, null, window.location.pathname)
+      }
+    </script>
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <nav class="main-nav">
+        <div class="nav-links">
+          <a href="#home">Главная</a>
+          <a href="#about">О нас</a>
+          <a href="#menu">Меню</a>
+          <a href="#contact">Контакты</a>
+        </div>
+      </nav>
+      <div class="hero-wrapper">
+        <div class="hero-content">
+          <div class="hero-logo">
+            <svg
+              class="hero-logo-icon"
+              viewBox="0 0 64 64"
+              role="img"
+              aria-label="Morning Cup logo"
+            >
+              <circle cx="32" cy="32" r="30" />
+              <path
+                d="M20 25h20v14a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8V25Zm20 4h7a5 5 0 0 1 0 10h-7"
+              />
+              <path d="M26 17s-3 4 0 7M32 17s-3 4 0 7M38 17s-3 4 0 7" />
+            </svg>
+            <div class="hero-brand-name">
+              <span class="brand-line-1">MORNING</span>
+              <span class="brand-line-2">CUP</span>
+            </div>
+          </div>
+          <p class="eyebrow">Каждое утро — повод для вдохновения</p>
+          <h1>Кофейня, в которую хочется возвращаться</h1>
+          <p>
+            Morning Cup — это пространство ранних идей, живой музыки и зерен,
+            обжаренных локально. Мы варим кофе так, чтобы первый глоток запускал
+            день, а второй подсказывал новые мысли. Домашняя выпечка, сезонное
+            меню и улыбки бариста превращают обычное утро в маленькую церемонию
+            заботы о себе.
+          </p>
+          <a class="primary-btn" href="#menu">Посмотреть меню</a>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://pngicon.ru/file/uploads/kofe.png"
+            alt="Чашка кофе Morning Cup"
+            class="parallax-coffee"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about" id="about">
+        <div class="section-header">
+          <h2>О нас</h2>
+          <p>
+            Morning Cup — одна из крупнейших сетей кофеен в Санкт-Петербурге. Мы
+            создаём пространства, где каждый день начинается с идеальной чашки
+            кофе.
+          </p>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Кофеен</div>
+            <p class="stat-description">В разных районах города</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">1М+</div>
+            <div class="stat-label">Чашек в месяц</div>
+            <p class="stat-description">Каждая — с заботой</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Лет опыта</div>
+            <p class="stat-description">Близких отношений с кофе</p>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Наша история</h3>
+            <p>
+              Всё началось с простой идеи: каждый заслуживает качественный кофе
+              каждый день. За 5 лет мы выросли из одной маленькой кофейни в
+              крупнейшую сеть Санкт-Петербурга, не потеряв при этом главного —
+              внимания к деталям и любви к своему делу.
+            </p>
+            <p>
+              Мы работаем напрямую с фермерами, обжариваем зерно на собственной
+              обжарке и обучаем бариста мастерству. Каждая кофейня — это не
+              просто точка продаж, а место, где создаётся атмосфера и рождаются
+              новые традиции.
+            </p>
+            <h3>Наши ценности</h3>
+            <ul class="values-list">
+              <li>
+                <strong>Качество</strong> — только отборные зёрна и проверенные
+                рецепты
+              </li>
+              <li>
+                <strong>Доступность</strong> — кофе должен быть рядом, всегда и
+                везде
+              </li>
+              <li>
+                <strong>Сообщество</strong> — мы создаём места для встреч и
+                общения
+              </li>
+              <li>
+                <strong>Экология</strong> — заботимся о планете и поддерживаем
+                устойчивое производство
+              </li>
+            </ul>
+          </div>
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80"
+              alt="Бариста готовит кофе в Morning Cup"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="section-header">
+          <h2>Галерея впечатлений</h2>
+          <p>
+            Мы собрали мгновения, передающие атмосферу нашей кофейни: ароматные
+            напитки, тёплый свет и детали, из которых складывается идеальное
+            утро.
+          </p>
+        </div>
+        <div class="gallery-grid">
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/302902/pexels-photo-302902.jpeg"
+              alt="Эспрессо, приготовленный с вниманием к каждой детали"
+              loading="lazy"
+            />
+            <figcaption>
+              Эспрессо, приготовленный с вниманием к каждой детали
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/30714804/pexels-photo-30714804.jpeg"
+              alt="Домашняя выпечка"
+              loading="lazy"
+            />
+            <figcaption>
+              Свежая выпечка и идеальный кофе — классика вашего утра
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg"
+              alt="Интерьер кофейни"
+              loading="lazy"
+            />
+            <figcaption>
+              Уютный интерьер с естественным светом и мягкой атмосферой
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/302901/pexels-photo-302901.jpeg"
+              alt="Бариста готовит альтернативу"
+              loading="lazy"
+            />
+            <figcaption>
+              Нежный латте-арт — кофе, который создаёт настроение
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="menu" id="menu">
+        <div class="section-header">
+          <h2>Меню</h2>
+          <p>
+            Мы обновляем линейку каждую неделю: зерно обжаривается малыми
+            партиями и раскрывает себя в фильтре, эспрессо и авторских напитках.
+          </p>
+        </div>
+
+        <div class="menu-tabs">
+          <button class="menu-tab active" data-tab="classic">
+            Классические напитки
+          </button>
+          <button class="menu-tab" data-tab="signature">Фирменное меню</button>
+          <button class="menu-tab" data-tab="seasonal">Сезонное меню</button>
+        </div>
+
+        <div class="menu-section active" data-section="classic">
+          <h3 class="menu-section-title">Классические напитки</h3>
+          <div class="menu-grid">
+            <article class="menu-card">
+              <header>
+                <h3>Эспрессо</h3>
+                <span class="menu-price">180 ₽</span>
+              </header>
+              <p>
+                Классический двойной шот с плотным кремом и насыщенным вкусом.
+              </p>
+            </article>
+            <article class="menu-card">
+              <header>
+                <h3>Американо</h3>
+                <span class="menu-price">200 ₽</span>
+              </header>
+              <p>Эспрессо с горячей водой для мягкого и чистого вкуса.</p>
+            </article>
+            <article class="menu-card">
+              <header>
+                <h3>Капучино</h3>
+                <span class="menu-price">280 ₽</span>
+              </header>
+              <p>
+                Эспрессо с молочной пеной в пропорции 1:1, идеальный баланс.
+              </p>
+            </article>
+            <article class="menu-card">
+              <header>
+                <h3>Латте</h3>
+                <span class="menu-price">320 ₽</span>
+              </header>
+              <p>Нежный эспрессо с большим количеством вспененного молока.</p>
+            </article>
+            <article class="menu-card">
+              <header>
+                <h3>Раф</h3>
+                <span class="menu-price">350 ₽</span>
+              </header>
+              <p>Эспрессо, сливки и ванильный сахар, взбитые капучинатором.</p>
+            </article>
+            <article class="menu-card">
+              <header>
+                <h3>Флэт уайт</h3>
+                <span class="menu-price">300 ₽</span>
+              </header>
+              <p>
+                Двойной эспрессо с тонким слоем микро-пены для яркого вкуса.
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <div class="menu-section" data-section="signature">
+          <h3 class="menu-section-title">Фирменное меню</h3>
+          <div class="menu-grid">
+            <article class="menu-card">
+              <header>
+                <h3>Тоник Раф</h3>
+                <span class="menu-price">410 ₽</span>
+              </header>
+              <p>
+                Авторский напиток с цитрусовым тоником, ванильным сиропом и
+                двойным шотом эспрессо.
+              </p>
+            </article>
+            <article class="menu-card">
+              <header>
+                <h3>Карамельный макиато</h3>
+                <span class="menu-price">380 ₽</span>
+              </header>
+              <p>
+                Латте с карамельным сиропом и рисунком на пенке от нашего
+                бариста.
+              </p>
+            </article>
+            <article class="menu-card">
+              <header>
+                <h3>Ореховый раф</h3>
+                <span class="menu-price">390 ₽</span>
+              </header>
+              <p>Классический раф с добавлением орехового сиропа и корицы.</p>
+            </article>
+            <article class="menu-card">
+              <header>
+                <h3>Аффогато</h3>
+                <span class="menu-price">420 ₽</span>
+              </header>
+              <p>Шарик ванильного мороженого, залитый горячим эспрессо.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="menu-section" data-section="seasonal">
+          <h3 class="menu-section-title">Сезонное меню</h3>
+          <div class="menu-grid">
+            <article class="menu-card">
+              <header>
+                <h3>Тыквенный латте</h3>
+                <span class="menu-price">360 ₽</span>
+              </header>
+              <p>
+                Осенний напиток с тыквенным пюре, специями и молочной пеной.
+              </p>
+            </article>
+            <article class="menu-card">
+              <header>
+                <h3>Мятный мокко</h3>
+                <span class="menu-price">370 ₽</span>
+              </header>
+              <p>
+                Латте с шоколадом и свежей мятой, идеален для прохладных дней.
+              </p>
+            </article>
+            <article class="menu-card">
+              <header>
+                <h3>Кокосовый раф</h3>
+                <span class="menu-price">380 ₽</span>
+              </header>
+              <p>
+                Раф с кокосовым молоком и кокосовой стружкой, тропический вкус.
+              </p>
+            </article>
+            <article class="menu-card">
+              <header>
+                <h3>Имбирный латте</h3>
+                <span class="menu-price">340 ₽</span>
+              </header>
+              <p>Согревающий напиток с имбирным сиропом и молочной пеной.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="section-header">
+          <h2>Контакты</h2>
+          <p>
+            Приходите к нам за чашкой кофе или свяжитесь с нами, чтобы уточнить
+            меню, договориться о мероприятии или узнать про свежие поставки
+            зерна.
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-details">
+            <div class="contact-card">
+              <h3>Адрес</h3>
+              <p>Санкт-Петербург, ул. Кофейная, д. 15</p>
+              <p class="contact-note">5 минут от метро "Невский проспект"</p>
+            </div>
+
+            <div class="contact-card">
+              <h3>Часы работы</h3>
+              <p class="hours">Пн-Вс: 08:00 — 22:00</p>
+              <p class="contact-note">Без выходных</p>
+            </div>
+
+            <div class="contact-card">
+              <h3>Связь с нами</h3>
+              <div class="contact-links">
+                <a href="tel:+79991234567" class="contact-link">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M6 3h4l2 5l-2 2c1 2.6 3.4 4.9 6 6l2-2l5 2v4c0 1.1-.9 2-2 2c-8.3 0-15-6.7-15-15c0-1.1.9-2 2-2z"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>+7 999 123-45-67</span>
+                </a>
+                <a href="mailto:hello@morningcup.ru" class="contact-link">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M3 6h18v12H3V6Zm0 0l9 7l9-7"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>hello@morningcup.ru</span>
+                </a>
+              </div>
+              <div class="social-links">
+                <a
+                  href="https://www.instagram.com/morningcup"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="social-link"
+                  aria-label="Instagram Morning Cup"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11zm0 2a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7zm6-2a1 1 0 1 1 0 2a1 1 0 0 1 0-2z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://vk.com/morningcup"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="social-link"
+                  aria-label="VKontakte Morning Cup"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M12.785 16.241s.336-.041.509-.25c.158-.193.154-.557.154-.557s-.022-1.536.677-1.762c.691-.223 1.58 1.49 2.521 2.148.701.485 1.231.378 1.231.378l2.521-.037s1.319-.084.693-1.13c-.051-.084-.361-.75-1.859-2.216-1.571-1.528-1.358-1.28.531-3.921.365-.511.512-.842.233-1.196-.213-.27-.512-.312-.512-.312h-2.916s-.213-.014-.37.163c-.128.15-.189.442-.189.442s-.338 1.006-.784 1.863c-.946 1.78-1.325 1.875-1.48 1.765-.36-.27-.27-1.08-.27-1.656 0-1.8.27-2.54-.527-2.733-.264-.064-.459-.106-1.136-.113-.87-.009-1.605.003-2.022.207-.277.137-.49.442-.36.46.16.022.522.096.712.352.247.33.238.958.238.958s.142 2.09-.33 2.345c-.325.175-.77-.182-1.73-1.82-.49-1.03-.861-2.17-.861-2.17s-.071-.45-.2-.58c-.155-.16-.371-.21-.371-.21h-2.78s-.417.013-.57.19c-.138.16-.011.49-.011.49s1.75 4.09 3.73 6.15c1.82 1.89 3.9 1.77 3.9 1.77h.94s.112-.02.193-.14c.075-.11.075-.25.075-.25s-.05-1.44.21-1.65c.21-.17.48-.14.65.11.22.32.85 1.25 1.13 1.68.22.33.37.51.51.51.13 0 .26-.08.26-.08l2.52-1.48s.26-.15.15-.46c-.11-.31-.24-.26-.24-.26l-1.95 1.23s-.22.15-.4.06c-.18-.09-.38-.33-.38-.33s-2.7-3.75-3.01-4.05c-.24-.24-.17-.24.13-.24h2.33s.38.02.47.15c.09.13.02.38.02.38l-.95 2.24s-.07.18.04.27c.11.09.25.13.25.13l1.83.11s.3.02.41.18c.11.15.02.46.02.46l-1.68 3.24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <form class="contact-form" id="contact-form">
+                <label for="name">Имя</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Ваше имя"
+                />
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="your@email.com"
+                />
+                <label for="message">Сообщение</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                  placeholder="Ваше сообщение"
+                ></textarea>
+                <button type="submit">Отправить</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.0!2d37.6173!3d55.7558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDQ1JzIwLjkiTiAzN8KwMzcnMDIuMyJF!5e0!3m2!1sru!2sru!4v1234567890123!5m2!1sru!2sru"
+              width="100%"
+              height="100%"
+              style="border: 0; border-radius: 24px"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Расположение кофейни Morning Cup"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2025 Morning Cup. Все права защищены.</p>
+    </footer>
+    <script>
+      const menuTabs = document.querySelectorAll('.menu-tab')
+      const menuSections = document.querySelectorAll('.menu-section')
+
+      menuTabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          const targetSection = tab.getAttribute('data-tab')
+
+          // Убираем активный класс со всех табов и разделов
+          menuTabs.forEach((t) => t.classList.remove('active'))
+          menuSections.forEach((s) => s.classList.remove('active'))
+
+          // Добавляем активный класс к выбранному табу и разделу
+          tab.classList.add('active')
+          document
+            .querySelector(`.menu-section[data-section="${targetSection}"]`)
+            .classList.add('active')
+        })
+      })
+
+      // Параллакс эффект для чашки кофе
+      const parallaxCoffee = document.querySelector('.parallax-coffee')
+      if (parallaxCoffee) {
+        // Параллакс при движении мыши
+        const hero = document.querySelector('.hero')
+        if (hero) {
+          hero.addEventListener('mousemove', (e) => {
+            const rect = hero.getBoundingClientRect()
+            const x = e.clientX - rect.left
+            const y = e.clientY - rect.top
+            const centerX = rect.width / 2
+            const centerY = rect.height / 2
+            const moveX = (x - centerX) / 40
+            const moveY = (y - centerY) / 40
+
+            parallaxCoffee.style.transform = `translate(${moveX}px, ${moveY}px)`
+          })
+
+          hero.addEventListener('mouseleave', () => {
+            parallaxCoffee.style.transform = 'translate(0, 0)'
+          })
+        }
+      }
+
+      // Валидация формы обратной связи
+      const contactForm = document.getElementById('contact-form')
+      if (contactForm) {
+        contactForm.addEventListener('submit', (event) => {
+          event.preventDefault()
+
+          const emailInput = document.getElementById('email')
+          const emailValue = emailInput.value.trim()
+
+          // Убираем класс ошибки при новой попытке
+          emailInput.classList.remove('error')
+
+          // Проверка на наличие @ в email
+          if (!emailValue.includes('@')) {
+            emailInput.classList.add('error')
+            alert('Пожалуйста, укажите корректный email с символом @')
+            emailInput.focus()
+            return false
+          }
+
+          // Если валидация прошла успешно
+          alert('Спасибо! Ваше сообщение отправлено.')
+          contactForm.reset()
+        })
+      }
+    </script>
+  </body>
+</html>
